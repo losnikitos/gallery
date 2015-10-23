@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    width: 9999px;
+    transition: transform .3s ease-out;
+}
+
+.slide {
+    display: inline-block;
+    height: 100%;
+    width: 100vw;
+    background-size: contain;
+    white-space: nowrap;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.next, .prev {
+    position: fixed;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.next:hover, .prev:hover {
+    opacity: .1;
+}
