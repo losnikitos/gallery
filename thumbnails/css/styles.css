@@ -21,6 +21,7 @@ html, body {
     right: 0;
     bottom: 0;
 
+    cursor: pointer;
     position: fixed;
     background-color: #fff;
     box-shadow: 0 0 30px #000;
