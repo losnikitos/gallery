@@ -2,11 +2,12 @@ $(function() {
 
     $('.thumbnail').click(function() {
         var imageSrc = $(this).attr('src');
-        $('.modal').show();
-        $('.content').css({ backgroundImage: 'url(' + imageSrc + ')'})
+        $('.modal')
+            .show()
+            .attr({ src: imageSrc })
     });
 
-    $('.close').click(function() {
-        $('.modal').hide();
+    $('.modal').click(function() {
+        $(this).hide();
     })
 });

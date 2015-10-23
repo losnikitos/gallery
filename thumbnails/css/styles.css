@@ -16,14 +16,17 @@ html, body {
 }
 
 .modal {
-    top: 50px;
-    left: 50px;
-    right: 50px;
-    bottom: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
     position: fixed;
     background-color: #fff;
     box-shadow: 0 0 30px #000;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
     display: none;
 }
 
