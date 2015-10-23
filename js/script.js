@@ -1,7 +1,7 @@
 $(function () {
 
     var currentSlide = 0,
-        slidesCount = 5;
+        slidesCount = $('.slide').length;
 
     $('.next').click(function () {
         currentSlide = currentSlide + 1;
